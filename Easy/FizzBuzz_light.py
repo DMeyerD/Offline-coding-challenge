@@ -1,4 +1,4 @@
-# 🧠 Challenge: FizzBuzz Lite
+# Challenge: FizzBuzz Lite
 # Task:
 # Write a function that takes a number n and prints all numbers from 1 to n. But:
     # If the number is divisible by 3, print "Fizz" instead.
@@ -20,3 +20,9 @@ def fizzbuzz (n):
         else:
             print(i)
 fizzbuzz(n)
+
+# This challenge tripped me up on the range function — I was starting at index 0.
+# While I understood this, it took a deeper reading of the documentation to realize
+# I can manipulate this within the range function.
+# After completing this challenge, I realized I’ve overcomplicated the use of range(n - n + 1),
+# but I will leave it as-is since this is the code I came up with without the help of AI or the internet.
